@@ -1,12 +1,12 @@
-# Задаем значения для 2 игроков
-player1 = "X"
-player2 = "0"
+from colorama import Fore, Back, Style
 
+
+# Задаем значения для 2 игроков
+player1 = (Fore.RED + 'X' + Style.RESET_ALL)
+player2 = (Fore.BLUE + 'O' + Style.RESET_ALL)
 
 # 3 х 3 игровое поле
-board = [[' ', ' ', ' '],
-         [' ', ' ', ' '],
-         [' ', ' ', ' ']]
+board = [[(Back.YELLOW + ' ' + Style.RESET_ALL) for i in range(3)] for j in range(3)]
 
 
 def draw_board(board):          # рисует простенькую доску(нужна доработка)
@@ -27,7 +27,7 @@ def ask_move(player, board):
 
 
 def make_move(player, board, x, y):         # проверяет свободна ли клетка и делает ход
-    if board[x][y] != " ":
+    if board[x][y] != (Back.YELLOW + ' ' + Style.RESET_ALL):
         print("Клетка занята!")
         return False
     board[x][y] = player
@@ -56,7 +56,7 @@ def check_win(player, board):       #ПРОВЕРКА ПОБЕДУКТЕЛЯ
 def tie_game():             #Условия ничьи
     for row in board:
         for cell in row:
-            if cell == " ":
+            if cell == (Back.YELLOW + ' ' + Style.RESET_ALL):
                 return True
     return False
 
