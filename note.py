@@ -1,4 +1,7 @@
-from os import path, remove, listdir
+from os import path, remove, listdir, getenv
+
+
+
 
 #создание заметки
 def build_note(note_text, note_name):
@@ -96,6 +99,4 @@ def main():
                 main()
     except:
         print("Произошла ошибка.")
-
-
 

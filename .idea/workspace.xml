@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a119ab39-06f2-4abf-86bf-3a04a37d2bce" name="Changes" comment="Собрал базу 3 задания, пока сырое">
+    <list default="true" id="a119ab39-06f2-4abf-86bf-3a04a37d2bce" name="Changes" comment="Завершил 4 задание, пока не понимаю смысл 5 задания&#10;Добавил частичку дебаггинга из 6 задания, пока только поверхностный дебаггинг">
+      <change afterPath="$PROJECT_DIR$/telegram_bot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/note.py" beforeDir="false" afterPath="$PROJECT_DIR$/note.py" afterDir="false" />
     </list>
@@ -39,6 +40,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.note.executor": "Run",
+    "Python.telegram_bot.executor": "Run",
+    "Python.test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -110,7 +113,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708452201334</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Завершил 4 задание, пока не понимаю смысл 5 задания">
+      <option name="closed" value="true" />
+      <created>1708457540799</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708457540799</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Завершил 4 задание, пока не понимаю смысл 5 задания&#10;Добавил частичку дебаггинга из 6 задания, пока только поверхностный дебаггинг">
+      <option name="closed" value="true" />
+      <created>1708458274454</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708458274454</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,6 +161,8 @@
     <MESSAGE value="Начало 3 задание, переименовал 2 задание, подправил описание" />
     <MESSAGE value="подправил комментарии" />
     <MESSAGE value="Собрал базу 3 задания, пока сырое" />
-    <option name="LAST_COMMIT_MESSAGE" value="Собрал базу 3 задания, пока сырое" />
+    <MESSAGE value="Завершил 4 задание, пока не понимаю смысл 5 задания" />
+    <MESSAGE value="Завершил 4 задание, пока не понимаю смысл 5 задания&#10;Добавил частичку дебаггинга из 6 задания, пока только поверхностный дебаггинг" />
+    <option name="LAST_COMMIT_MESSAGE" value="Завершил 4 задание, пока не понимаю смысл 5 задания&#10;Добавил частичку дебаггинга из 6 задания, пока только поверхностный дебаггинг" />
   </component>
 </project>
