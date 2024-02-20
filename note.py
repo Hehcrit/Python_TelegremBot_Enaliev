@@ -1,4 +1,4 @@
-from os import path, remove
+from os import path, remove, listdir
 
 #создание заметки
 def build_note(note_text, note_name):
@@ -47,6 +47,11 @@ def delete_note():
         print("Заметка не найдена")
 
 
+def display_notes():            #TASK 4, Показывать список всех заметок
+    notes = [note for note in listdir() if note.endswith(".txt")]
+    for i in sorted(notes, key=len):
+        print(i[:-4])
+
 def main():
     print("Введите NEW NOTE если вы хотите записать новую заметку"
                     "\nКоманда READ NOTE выводит содержимое вашей заметки,"
@@ -70,4 +75,4 @@ def main():
             main()
 
 
-main()
+display_notes()
